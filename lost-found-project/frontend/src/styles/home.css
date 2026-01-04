@@ -1,0 +1,31 @@
+.home {
+  padding: 80px;
+}
+
+.home h1 span {
+  color: #2563eb;
+}
+
+.badge {
+  background: #e0e7ff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #2563eb;
+}
+
+.home-buttons button {
+  margin-right: 15px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #2563eb;
+  background: white;
+}

@@ -1,0 +1,39 @@
+[debug] [2026-01-04T08:52:37.637Z] ----------------------------------------------------------------------
+[debug] [2026-01-04T08:52:37.639Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DHANASEELAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth,functions
+[debug] [2026-01-04T08:52:37.639Z] CLI Version:   15.1.0
+[debug] [2026-01-04T08:52:37.639Z] Platform:      win32
+[debug] [2026-01-04T08:52:37.639Z] Node Version:  v25.2.1
+[debug] [2026-01-04T08:52:37.640Z] Time:          Sun Jan 04 2026 14:22:37 GMT+0530 (India Standard Time)
+[debug] [2026-01-04T08:52:37.640Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-04T08:52:37.641Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-01-04T08:52:38.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-04T08:52:38.693Z] > authorizing via signed-in user (dhanaseelan707@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[warn] !  auth: Not starting the auth emulator, make sure you have run firebase init. {"metadata":{"emulator":{"name":"auth"},"message":"Not starting the \u001b[1mauth\u001b[22m emulator, make sure you have run \u001b[1mfirebase init\u001b[22m."}}
+[warn] !  hub: emulator hub unable to start on port 4400, starting on 4401 instead. {"metadata":{"emulator":{"name":"hub"},"message":"emulator hub unable to start on port 4400, starting on 4401 instead."}}
+[warn] !  logging: Logging Emulator unable to start on port 4500, starting on 4501 instead. {"metadata":{"emulator":{"name":"logging"},"message":"Logging Emulator unable to start on port 4500, starting on 4501 instead."}}
+[debug] [2026-01-04T08:52:38.702Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-01-04T08:52:38.702Z] assigned listening specs for emulators {"user":{"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2026-01-04T08:52:38.706Z] Emulator locator file path: C:\Users\DHANAS~1\AppData\Local\Temp\hub-lost-found-app-c13d6.json
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project lost-found-app-c13d6. This may result in unexpected behavior. 
+[debug] [2026-01-04T08:52:38.707Z] [hub] writing locator at C:\Users\DHANAS~1\AppData\Local\Temp\hub-lost-found-app-c13d6.json
+[debug] [2026-01-04T08:52:38.718Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  eventarc: Eventarc Emulator unable to start on port 9299, starting on 9300 instead. {"metadata":{"emulator":{"name":"eventarc"},"message":"Eventarc Emulator unable to start on port 9299, starting on 9300 instead."}}
+[debug] [2026-01-04T08:52:38.720Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  tasks: Cloud Tasks Emulator unable to start on port 9499, starting on 9500 instead. {"metadata":{"emulator":{"name":"tasks"},"message":"Cloud Tasks Emulator unable to start on port 9499, starting on 9500 instead."}}
+[debug] [2026-01-04T08:52:38.720Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-01-04T08:52:38.720Z] late-assigned ports for functions and eventarc emulators {"user":{"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9300}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9500}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2026-01-04T08:52:38.775Z] defaultcredentials: writing to file C:\Users\DHANASEELAN\AppData\Roaming\firebase\dhanaseelan707_gmail_com_application_default_credentials.json
+[debug] [2026-01-04T08:52:38.776Z] Setting GAC to C:\Users\DHANASEELAN\AppData\Roaming\firebase\dhanaseelan707_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\DHANASEELAN\\AppData\\Roaming\\firebase\\dhanaseelan707_gmail_com_application_default_credentials.json"}}
+[debug] [2026-01-04T08:52:38.776Z] Checked if tokens are valid: false, expires at: 1767506482720
+[debug] [2026-01-04T08:52:38.776Z] Checked if tokens are valid: false, expires at: 1767506482720
+[debug] [2026-01-04T08:52:38.777Z] > refreshing access token with scopes: []
+[debug] [2026-01-04T08:52:38.777Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-04T08:52:38.778Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-04T08:52:38.998Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-04T08:52:38.998Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-04T08:52:39.005Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lost-found-app-c13d6/adminSdkConfig [none]
+[debug] [2026-01-04T08:52:39.302Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-01-04T08:52:39.302Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
